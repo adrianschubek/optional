@@ -1,0 +1,26 @@
+{
+    "name": "adrianschubek/optional",
+    "description": "Adds optional() functionality",
+    "type": "library",
+    "homepage": "https://docs.adriansoftware.de/optional",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adrian",
+            "email": "adrian.schubek@gmail.com",
+            "homepage": "https://adriansoftware.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "adrianschubek\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "adrianschubek/macro": "^1.0"
+    }
+}
